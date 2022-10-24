@@ -3,7 +3,7 @@ const { urlencoded, json } = require('body-parser')
 const makeRepositories = require('./middleware/repositories')
 
 const STORAGE_FILE_PATH = 'questions.json'
-const PORT = 3009
+const PORT = 3000
 
 const app = express()
 
